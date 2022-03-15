@@ -1,0 +1,120 @@
+
+    .bigSize
+    {
+        font-size: 350%; 
+        color: #03045e;
+    }
+    .blueColor
+    {
+        color: #03045e;
+    }
+    .amarillo
+    {
+        color: #f9c74f;
+        box-shadow: 9px 5px 5px 0 rgba(249, 199, 79,.18), 9px 5px 5px 0 rgba(249, 199, 79,.18);
+    }
+    .fondo1
+    {
+        background-image: url("fndo1.jfif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin: 0 auto;
+    }
+    .fondo2
+    {
+        background-image: url("fondo2.jfif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin: 0 auto;
+    }
+    .azul
+    {
+        color: #03045e;
+        box-shadow: 1px 1px 10px 8px rgba(3, 4,120,.18), 1px 1px 10px 8px rgba(3, 4,120,.18);
+    }
+    .imgMarcas
+    {
+        width: 300px;
+        height: 150px;
+        vertical-align: middle;
+        filter: grayscale(1);
+    }
+    .imgMarcas:hover
+    {
+        filter: grayscale(0);
+    }
+    .margen
+    {
+        margin-left: 8%;
+        margin-top: 4%;
+        margin-right: 8%;
+    }
+    .margen2
+    {
+        margin-left: 15%;
+        margin-top: 4%;
+    }
+    .iconoCard
+    {
+        font-size: 2rem; 
+        color: #1a4fd6;
+        background-color: #e9ecef;
+        margin-left: 10%;
+        margin-right: 76%;
+        border-radius: 9px;
+    }
+
+    .iconoCardChic
+    {
+        font-size: 1rem;
+        color: #1a4fd6;
+        background-color: #e9ecef;
+        margin-left: 10%;
+        margin-right: 81%;
+        border-radius: 9px;
+    }
+    .sombraCard:hover
+    {
+        box-shadow: 9px 5px 5px 0 rgba(222, 226, 230,.18), 9px 5px 5px 0 rgba(222, 226, 230,.18);
+    }
+    .accordion-button:not(.collapsed)::after
+    {
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: blue;" fill="currentColor" class="bi bi-caret-down-fill bg-primary" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+    }
+    .accordion-button.collapsed::after 
+    {
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="color: blue;" fill="currentColor" class="bi bi-caret-down-fill bg-primary" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');            
+    }
+    .icono
+    {
+        color: #1a4fd6;
+        background-color: #e9ecef;
+        padding: 4px;
+        border-radius: 30%;
+    }
+    .iconoFinal
+    {
+        font-size: 2rem; 
+        color: #1a4fd6;
+        background-color: #e9ecef;
+        padding: 4px;
+        border-radius: 30%;
+        margin-top: 10px;
+    }
+    .botonFinal
+    {
+        background-color: #e9ecef;
+        color: #1a4fd6;
+    }
+    .botonFinal:hover
+    {
+        background-color: #1a4fd6;
+        color: white;
+        box-shadow: 5px 5px 10px 10px rgba(04, 150, 255,.18);
+    }
+    .fondoGris
+    {
+        background-color: #e9ecef;
+    }

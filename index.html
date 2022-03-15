@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pagina vacunacion</title>
+    
+    <script type="text/javascript">
+        function mostrarToast()
+        {
+            var toastLiveExample = document.getElementById('liveToast')
+            var toast = new bootstrap.Toast(toastLiveExample)
+            toast.show()
+        }
+        
+    </script>
+</head>
+<body>
+    <!-- barra de navegacion -->
+<div class="fondo1">
+    <div class="position-relative">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                <a class="navbar-brand mx-4 ms-5 text-primary fs-3" href="#" ></a>
+                    <a class="navbar-brand mx-4 ms-5 text-primary fs-3 fw-bold" href="#" >Vaccination</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse fw-bold" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <div class="nav-item mx-4 fs-6">
+                        <a class="nav-link text-secondary" href="#">Database</a>
+                    </div>
+                    <div class="nav-item mx-4 fs-6">
+                        <a class="nav-link text-secondary" href="#">Education</a>
+                    </div>
+                    <div class="nav-item mx-4 fs-6">
+                        <a class="nav-link text-secondary" href="#">News</a>
+                    </div>
+                    <div class="nav-item mx-4 fs-6">
+                        <a class="nav-link text-secondary" href="#">Regulation</a>
+                    </div>
+                    <div class="nav-item btn btn-primary mx-4 m-3 fs-6 p-0 bg-gradient ">
+                        <a class="nav-link text-white fw-bold" href="#">Hoax Buster</a>
+                    </div>
+                    <div class="nav-item mx-4 fs-6"></div>
+                    </div>
+                </div>
+            </nav>
+            <!-- imagen con texto 2 -->
+            <div class="card border-light mb-3 text-center fondo2" style="width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-6 ">
+                        <div class="card-body">
+                        <h1 class="card-title fw-bold bigSize pt-5 ">Flight Virus with vaccines</h1>
+                        <p class="card-text text-secondary col-6 margen2 ">Let's stop this pandemic by killing the virus with a vaccines, don't let yourself and your family get infected</p>
+                        <br><br><br>
+                        <p class="card-text blueColor">
+                            <span class="pe-2"><i class="bi bi-shield-fill amarillo"></i> Best protection</span >
+                            <span class="ps-2"><i class="bi bi-star-fill amarillo"></i> Selected vaccines</span>
+                        </p>
+                        <br><br>
+                        <p class="card-text blueColor">
+                            <span class="pe-2"><i class="bi bi-clock-fill azul"></i><a onclick='mostrarToast();'>Schedule your vaccinations</a></span >
+                        </p>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img1.jpg" class="img-fluid rounded-start m-0 p-0" alt="vacunas" width="70%" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- carrusel de imagenes -->
+<div class="container">
+    <div class="align-items-center text-center row align-items-start opacity-25">
+        <div class="col "><img src="astra.jpg" class="img-fluid rounded imgMarcas" alt=""></div>
+        <div class="col"><img src="Pfizer.png" class="img-fluid rounded imgMarcas" alt=""></div>
+        <div class="col"><img src="sinovac.jpg" class="img-fluid rounded imgMarcas" alt=""></div>
+        <div class="col"><img src="moderna.jpg" class="img-fluid rounded imgMarcas" alt=""></div>
+    </div>
+</div>
+<!-- cards de why -->
+<div class="margen">
+    <div>
+        <h2 class="fw-bold fs-1 blueColor">Why should i vaccine?</h2>
+    </div>
+    <div class="">
+        <p class="col-3 text-secondary ">In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of COVID-19 vaccination</p>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-4 g-4 margen">
+  <div class="col">
+    <div class="card h-100  border-light sombraCard">
+    <i class="bi bi-toggles card-title margen iconoCard"></i>
+      <div class="card-body">
+        <h5 class="card-title px-3 blueColor">Minimize the spread of viruses</h5>
+        <p class="card-text px-3 text-secondary">Vaccine has been proven effective to prevent someone from getting infected with coronavirus</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100  border-light sombraCard">
+    <i class="bi bi-shield-fill-check card-title margen iconoCard"></i>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100  border-light sombraCard">
+    <i class="bi bi-people-fill card-title margen iconoCard"></i>
+      <div class="card-body">
+        <h5 class="card-title ">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100  border-light sombraCard">
+    <i class="bi bi-graph-up-arrow card-title margen iconoCard"></i>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<hr>
+<!-- preparations before vaccine -->
+<div class="fondo1">
+    <div class="position-relative">
+        <div>
+            <!-- imagen con texto 2 -->
+            <div class="card border-light mb-3 text-start fondo2" style="width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="img2.jpg" class="img-fluid rounded-start m-0 p-0" alt="..." width="100%">
+                    </div>
+                    <div class="col-md-6 container px-5">
+                        <div class="card-body ms-5">
+                        <h1 class="card-title fw-bold bigSize ">Preparations before vaccine</h1>
+                        <p class="card-text text-secondary col-8">The success of vaccines is strongly influenced by the strngth of the body's immune system. 
+                            Therefore, there are several things that can be tried to make the COVID-19 vaccine work: </p>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <i class="bi bi-shield-fill-x mx-3 icono"></i> Avoid alcoholic beverages
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <i class="bi bi-x-square-fill mx-3 icono"></i> Avoid stress
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Stress has a profund effect on inmune work, moreover, prolonged stress can increase cortisol production and oxidative stress in the body</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        <i class="bi bi-file-bar-graph-fill icono mx-3"></i> Eat healthy food
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        <i class="bi bi-check-square-fill icono mx-3"></i> Get enough sleep
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        <i class="bi bi-balloon-heart-fill icono mx-3"></i> Exercise or physical activity
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="emergency contact">
+    <!-- emergency contact -->
+<div class="fondo1">
+    <div class="position-relative">
+        <div>
+            <!-- imagen con texto 2 -->
+            <div class="card border-light mb-3 text-start fondo2" style="width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-6 container px-5">
+                        <div class="card-body ms-5">
+                        <h1 class="card-title fw-bold bigSize blueColor">Emergency Contact</h1>
+                        <p class="card-text text-secondary col-8">Contact one of the contacts below if you or your family feel unwell and have similar symptoms 
+                            such as Covid-19, make sure you also take care of yourself before reporting to us: </p>
+                            <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="container card-body fondoGris">
+                                            <div class="col-md-6 float-md-start text-center">
+                                                <i class="bi bi-telephone-outbound-fill iconoFinal"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="card-title blueColor">Call</h5>
+                                                <p class="card-text">021.123.145.14</p>
+                                            </div>
+                                            <br>
+                                            <div class="text-center fon">
+                                                <button class="btn boton  botonFinal ">Call Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="container card-body fondoGris">
+                                            <div class="col-md-6 float-md-start text-center">
+                                                <i class="bi bi-chat-dots-fill iconoFinal"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="card-title blueColor">Chat</h5>
+                                                <p class="card-text">021.123.145.14</p>
+                                            </div>
+                                            <br>
+                                            <div class="text-center fon">
+                                                <button class="btn boton  botonFinal ">Chat Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="container card-body fondoGris">
+                                            <div class="col-md-6 float-md-start text-center">
+                                                <i class="bi bi-camera-video-fill iconoFinal"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="card-title blueColor">Video Call</h5>
+                                                <p class="card-text">021.123.145.14</p>
+                                            </div>
+                                            <br>
+                                            <div class="text-center fon">
+                                                <button class="btn boton  botonFinal ">Video Call Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card h-100">
+                                        <div class="container card-body fondoGris">
+                                            <div class="col-md-6 float-md-start text-center">
+                                                <i class="bi bi-envelope-fill iconoFinal"></i>
+                                            </div>
+                                            <div>
+                                                <h5 class="card-title blueColor">Message</h5>
+                                                <p class="card-text">021.123.145.14</p>
+                                            </div>
+                                            <br>
+                                            <div class="text-center fon">
+                                                <button class="btn  botonFinal">Message Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img3.jpg" class="img-fluid rounded-start m-0 p-0" alt="..." width="70%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<section id="footer">
+<div class="ps-5 fondo1" style="background-color: #e9ecef;">
+  <footer class="row row-cols-5 py-5 my-5 border-top">
+    <div class="col blueColor">
+        <h5>Vaccination</h5>
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Our goal is to help the world free from the ongoing pandemic</a></li>
+        </ul>
+    </div>
+
+    <div class="col">
+
+    </div>
+
+    <div class="col">
+      <h5>About</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News & Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h5>Company</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">How We Work?</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Capital</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Security</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h5>Support</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support Center</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="row text-start">
+    <div class="text-secondary col-md me-5 ms-0">@2021 Vaccination. all rights reserver</div>
+    <div class="text-secondary col-md ms-5 me-0 me-5 text-end">Terms & Agreements Privacy Policy</div>
+  </div>
+</div>
+</section>
+<!-- toast -->
+<div class="position-fixed top-50 start-50 translate-middle" style="z-index: 11; ">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="width: 500px">
+        <div class="toast-body">
+            <p>
+                <span class="mx-3 text-secondary"><i class="bi bi-flag-fill iconoCardChico"></i> Location</span> 
+                <span class="mx-3 text-secondary"><i class="bi bi-calendar-fill iconoCardChico"></i> Date</span> 
+                <span class="mx-3 text-secondary"><i class="bi bi-pencil-fill iconoCardChico"></i> Vaccine Type</span>
+            </p>
+            <p>
+                <span class="mx-3 blueColor">Jakara Utara</span> 
+                <span class="mx-3 blueColor">08 July 2021</span> 
+                <span class="mx-3 blueColor">Moderna <button class="btn btn-primary ms-5 pt-1">Submit</button></span> 
+            </p>
+        </div>
+    </div>
+</div>
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
